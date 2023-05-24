@@ -9,7 +9,8 @@ def minOperations(n):
 
     while characters < n:
         if n % characters == 0:
-            clipboard = characters  # If the number of characters is a divisor of n, update the clipboard
+            clipboard = characters  
+        # If the number of characters is a divisor of n, update the clipboard
 
         characters += clipboard
         operations += 1
