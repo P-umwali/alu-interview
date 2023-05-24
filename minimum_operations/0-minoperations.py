@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-The minOperations module offers a function that calculates the minimum number of operations needed to achieve a specific count of 'H' characters in a file. 
+The minOperations module offers a function that calculates the minimum number of operations
+needed to achieve a specific count of 'H' characters in a file.
 This calculation is based on the available operations of Copy All and Paste.
 
 """
@@ -9,9 +10,10 @@ import math
 
 def minOperations(n):
     """
-    Find the minimum number of operations needed to obtain exactly n 'H' characters in the file. 
-    The method takes an integer n as a parameter. 
-    It returns the minimum number of operations required to achieve the desired count of 'H' characters. 
+    Find the minimum number of operations needed to obtain exactly n 'H' characters in the file.
+    The method takes an integer n as a parameter.
+    It returns the minimum number of operations
+    required to achieve the desired count of 'H' characters.
     If n is negative or impossible to achieve, the method returns 0.
 
     """
